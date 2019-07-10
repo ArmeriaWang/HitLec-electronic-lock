@@ -1,0 +1,87 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue May 28 13:58:13 2019
+| Host         : DESKTOP-DCTV6RG running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    19 |
+| Unused register locations in slices containing registers |    68 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      3 |            1 |
+|      4 |            3 |
+|      6 |            1 |
+|      7 |            2 |
+|    16+ |           12 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             129 |           46 |
+| No           | No                    | Yes                    |               6 |            3 |
+| No           | Yes                   | No                     |             205 |           50 |
+| Yes          | No                    | No                     |               4 |            2 |
+| Yes          | No                    | Yes                    |              36 |            9 |
+| Yes          | Yes                   | No                     |              40 |           15 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-------------------------+------------------------------------+------------------+----------------+
+|  Clock Signal  |      Enable Signal      |          Set/Reset Signal          | Slice Load Count | Bel Load Count |
++----------------+-------------------------+------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                         | sLight/alarm[3]_i_1_n_0            |                1 |              3 |
+|  clk_IBUF_BUFG | sLight/alarm[3]_i_2_n_0 | sLight/alarm[3]_i_1_n_0            |                1 |              4 |
+|  clk_IBUF_BUFG | enter/cur[3]_i_2_n_0    | enter/cur[3]_i_1_n_0               |                1 |              4 |
+|  clk_IBUF_BUFG | enter/num[3]_i_1_n_0    |                                    |                2 |              4 |
+|  clk_IBUF_BUFG |                         | lc[31]_i_2_n_0                     |                3 |              6 |
+|  clk_IBUF_BUFG |                         | display/single0/pipe[6]_i_1_n_0    |                1 |              7 |
+|  clk_IBUF_BUFG |                         | display/single1/pipe[6]_i_1__0_n_0 |                1 |              7 |
+|  clk_IBUF_BUFG |                         | add1_T_IBUF                        |                5 |             20 |
+|  clk_IBUF_BUFG |                         | digCnf_T_IBUF                      |                5 |             20 |
+|  clk_IBUF_BUFG |                         | pasBtn_T_IBUF                      |                5 |             20 |
+|  clk_IBUF_BUFG |                         | sub1_T_IBUF                        |                5 |             20 |
+|  clk_IBUF_BUFG |                         | add1Nor/clear                      |                5 |             20 |
+|  clk_IBUF_BUFG |                         | digCnfNor/highCnt[0]_i_1__1_n_0    |                5 |             20 |
+|  clk_IBUF_BUFG |                         | pasCnf/highCnt[0]_i_1__2_n_0       |                5 |             20 |
+|  clk_IBUF_BUFG |                         | sub1Nor/highCnt[0]_i_1_n_0         |                5 |             20 |
+|  clk_IBUF_BUFG |                         | enter/p_1_in                       |                7 |             28 |
+|  clk_IBUF_BUFG | enter/pw[31]_i_1_n_0    | enter/cur[3]_i_1_n_0               |               13 |             32 |
+|  clk_IBUF_BUFG | enter/E[0]              | lc[31]_i_2_n_0                     |                9 |             36 |
+|  clk_IBUF_BUFG |                         |                                    |               46 |            129 |
++----------------+-------------------------+------------------------------------+------------------+----------------+
+
+

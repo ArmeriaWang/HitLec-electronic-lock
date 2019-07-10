@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ELock.srcs/sources_1/new/displayDigits.v" \
+"../../../../ELock.srcs/sources_1/new/displaySingle.v" \
+"../../../../ELock.srcs/sources_1/new/enterPw.v" \
+"../../../../ELock.srcs/sources_1/new/keyNormalize.v" \
+"../../../../ELock.srcs/sources_1/new/main.v" \
+"../../../../ELock.srcs/sources_1/new/stateLight.v" \
+"../../../../ELock.srcs/sim_1/new/test0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

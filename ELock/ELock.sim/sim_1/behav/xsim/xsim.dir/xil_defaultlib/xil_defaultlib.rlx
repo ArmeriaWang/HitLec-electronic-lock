@@ -1,0 +1,12 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+E:/Verilog/ELock/ELock.sim/sim_1/behav/xsim/glbl.v,1544155480,verilog,,,,glbl,,,,,,,,
+E:/Verilog/ELock/ELock.srcs/sim_1/new/test0.v,1558808914,verilog,,,,test0,,,,,,,,
+E:/Verilog/ELock/ELock.srcs/sources_1/new/displayDigits.v,1558952488,verilog,,E:/Verilog/ELock/ELock.srcs/sources_1/new/displaySingle.v,,displayDigits,,,,,,,,
+E:/Verilog/ELock/ELock.srcs/sources_1/new/displaySingle.v,1558862090,verilog,,E:/Verilog/ELock/ELock.srcs/sources_1/new/enterPw.v,,displaySingle,,,,,,,,
+E:/Verilog/ELock/ELock.srcs/sources_1/new/enterPw.v,1558952613,verilog,,E:/Verilog/ELock/ELock.srcs/sources_1/new/keyNormalize.v,,enterPw,,,,,,,,
+,,,,E:/Verilog/ELock/ELock.srcs/sources_1/new/main.v,,keyNormalize,,,,,,,,
+E:/Verilog/ELock/ELock.srcs/sources_1/new/main.v,1558808802,verilog,,E:/Verilog/ELock/ELock.srcs/sources_1/new/stateLight.v,,main,,,,,,,,
+E:/Verilog/ELock/ELock.srcs/sources_1/new/stateLight.v,1558808760,verilog,,E:/Verilog/ELock/ELock.srcs/sim_1/new/test0.v,,stateLight,,,,,,,,
