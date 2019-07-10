@@ -9,3 +9,4 @@
 本项目未完全按照上述要求进行。项目采用的硬件设计语言是VerilogHDL，集成开发环境为Xilinx Vivado 2018.3，开发板为Xilinx EGO1。  
 
 更多信息请参考项目根目录下的`Report.doc`。
+
